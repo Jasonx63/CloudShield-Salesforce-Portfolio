@@ -8,7 +8,7 @@ This repository documents a complete end-to-end B2B SaaS sales cycle built in Sa
 
 The goal of this project is to demonstrate practical Salesforce experience by following a realistic customer journey—from company setup and product configuration through opportunity management, quoting, negotiation, closing, and renewals.
 
-In addition to completing isolated Salesforce exercises, this portfolio documents each stage of the sales process while explaining the business purpose behind the work performed.
+Rather than documenting isolated Salesforce exercises, this portfolio follows a connected customer journey and explains the business purpose behind each stage of the sales process.
 
 ---
 
@@ -32,8 +32,8 @@ This repository follows that customer throughout the entire sales lifecycle.
 
 | Status | Chapter |
 |--------|---------|
-| In Progress | 01 - Company Overview |
-| In Progress | 02 - Product Catalog |
+| Complete | 01 - Company Overview |
+| Complete | 02 - Product Catalog |
 | Planned | 03 - Price Books |
 | Planned | 04 - Customer Account |
 | Planned | 05 - Customer Contact |
