@@ -34,7 +34,7 @@ This repository follows that customer throughout the entire sales lifecycle.
 |--------|---------|
 | Complete | 01 - Company Overview |
 | Complete | 02 - Product Catalog |
-| Planned | 03 - Price Books |
+| Complete | 03 - Price Books |
 | Planned | 04 - Customer Account |
 | Planned | 05 - Customer Contact |
 | Planned | 06 - Opportunity Lifecycle |
