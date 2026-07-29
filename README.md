@@ -1,82 +1,108 @@
-# CloudShield Security Salesforce Sales Portfolio
+# CloudShield Security - Salesforce Sales Cloud Portfolio
 
 ## Overview
 
-Welcome to my Salesforce Sales Portfolio.
+This repository showcases a complete Salesforce Sales Cloud implementation built around a fictional cybersecurity SaaS company, CloudShield Security.
 
-This repository documents a complete end-to-end B2B SaaS sales cycle built in Salesforce Sales Cloud using a fictional cybersecurity company, **CloudShield Security**.
+The project demonstrates how Salesforce supports the full B2B sales lifecycle—from lead generation to customer acquisition, opportunity management, product configuration, pricing, quote creation, and sales pipeline management.
 
-The goal of this project is to demonstrate practical Salesforce experience by following a realistic customer journey—from company setup and product configuration through opportunity management, quoting, negotiation, closing, and renewals.
-
-Rather than documenting isolated Salesforce exercises, this portfolio follows a connected customer journey and explains the business purpose behind each stage of the sales process.
+Rather than isolated Trailhead exercises, this portfolio models a realistic sales organization with interconnected Salesforce objects and business processes.
 
 ---
 
-# Business Scenario
+## Project Highlights
 
-CloudShield Security provides cloud-based cybersecurity software and managed security services to commercial organizations.
-
-For this case study, a fictional customer, **CS - Treasure Valley Health System**, purchases:
-
-- Haze Professional
-- Premium Support
-- Managed Detection & Response
-
-During the sales process, the customer expands the deployment from **500** to **650** users before accepting the proposal and completing the purchase.
-
-This repository follows that customer throughout the entire sales lifecycle.
-
----
-
-# Repository Contents
-
-| Status | Chapter |
-|--------|---------|
-| Complete | 01 - Company Overview |
-| Complete | 02 - Product Catalog |
-| Complete | 03 - Price Books |
-| Planned | 04 - Customer Account |
-| Planned | 05 - Customer Contact |
-| Planned | 06 - Opportunity Lifecycle |
-| Planned | 07 - Quote Lifecycle |
-| Planned | 08 - Opportunity Contact Roles |
-| Planned | 09 - Closed Won Opportunity |
-| Planned | 10 - Renewal Lifecycle |
-
----
-
-# Technologies Used
-
-- Salesforce Sales Cloud
-- GitHub
-- GitHub Desktop
-- Visual Studio Code
-- Markdown
-
----
-
-# Skills Demonstrated
-
-Throughout this portfolio I demonstrate experience with:
-
-- Account Management
-- Contact Management
-- Product Catalogs
-- Price Books
-- Opportunity Management
+- 4 Industry-specific customer accounts
+- 7 Stakeholder contacts with defined decision-making roles
+- Complete SaaS product catalog
+- Multiple Price Books
+- Sales Opportunities across different pipeline stages
+- Synchronized Salesforce Quotes
 - Opportunity Products
-- Quote Creation
-- Quote Synchronization
-- Opportunity Contact Roles
-- Pipeline Management
-- Sales Lifecycle Management
-- SaaS Sales Processes
-- Customer Renewals
+- Contact Roles
+- Sales Activities
+- Reports
+- Lead Source Analysis
 
 ---
 
-# Purpose
+## Salesforce Features Demonstrated
 
-I created this portfolio to strengthen my understanding of Salesforce while building a realistic example of how a SaaS sales organization manages customers throughout the sales lifecycle.
+- Sales Cloud
+- Accounts
+- Contacts
+- Leads
+- Opportunities
+- Products
+- Price Books
+- Opportunity Products
+- Quotes
+- Contact Roles
+- Activities
+- Reports
+- Pipeline Management
+- Forecasting
 
-Every chapter includes screenshots, explanations, and business context to demonstrate not only how Salesforce features work, but also how they support real-world sales processes.
+---
+
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| 01-company-overview.md | CloudShield Security business overview |
+| 02-product-catalog.md | SaaS products offered |
+| 03-price-books.md | Customer pricing strategy |
+| 04-accounts-and-contacts.md | Customer and stakeholder management |
+| 05-opportunities.md | Sales pipeline and opportunities |
+| 06-quotes.md | Quote management |
+| 07-sales-workflow.md | End-to-end Salesforce workflow |
+
+---
+
+## Industries Included
+
+- Healthcare
+- Education
+- Government
+- Manufacturing
+
+---
+
+## Skills Demonstrated
+
+### Salesforce
+
+- Sales Cloud
+- CRM Administration
+- Opportunity Management
+- Quote Management
+- Product Catalog Management
+- Price Books
+- Reporting
+- Pipeline Management
+
+### Sales
+
+- SaaS Sales
+- Account Management
+- Customer Success
+- Consultative Selling
+- Opportunity Forecasting
+- Revenue Management
+- Stakeholder Management
+
+---
+
+## Repository Structure
+
+```text
+docs/
+screenshots/
+README.md
+```
+
+---
+
+## About This Project
+
+This portfolio was designed to demonstrate practical Salesforce Sales Cloud experience through realistic customer scenarios that mirror the workflows used by SaaS sales organizations.
