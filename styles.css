@@ -405,18 +405,52 @@ a {
 
 /* Screenshots */
 
-.screenshot-placeholder {
-    border: 2px dashed #a9bfd3;
-    border-radius: var(--radius);
-    padding: 52px 24px;
-    text-align: center;
-    background: #ffffff;
+/* Screenshots */
+
+.screenshot-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
 }
 
-.screenshot-placeholder p {
+.screenshot-featured {
+    grid-column: 1 / -1;
+}
+
+.screenshot-card {
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: #ffffff;
+    box-shadow: var(--shadow);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.screenshot-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 36px rgba(7, 27, 51, 0.12);
+}
+
+.screenshot-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.screenshot-card figcaption {
+    padding: 20px;
+}
+
+.screenshot-card h3 {
+    margin: 0 0 10px;
+    color: var(--navy);
+}
+
+.screenshot-card p {
     margin: 0;
     color: var(--muted);
 }
+
 
 /* Skills */
 
