@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Price Books | CloudShield Security</title>
+
+    <meta
+        name="description"
+        content="Price book structure for the CloudShield Security Salesforce Sales Cloud portfolio."
+    >
+
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav-container">
+            <a class="site-name" href="../index.html">
+                CloudShield Security
+            </a>
+
+            <button
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                Menu
+            </button>
+
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../index.html#overview">Overview</a>
+                <a href="../index.html#documentation">Documentation</a>
+                <a href="../index.html#screenshots">Screenshots</a>
+                <a href="../index.html#skills">Skills</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="section-container">
+                <p class="eyebrow">Project Documentation</p>
+
+                <h1>Price Books</h1>
+
+                <p>
+                    An overview of the Standard and Government price books used
+                    to support consistent pricing across CloudShield Security
+                    opportunities and customer quotes.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-container document-layout">
+                <article class="document-content">
+                    <section class="document-section">
+                        <h2>Price Book Overview</h2>
+
+                        <p>
+                            Salesforce Price Books organize the prices available
+                            for CloudShield Security products and services.
+                        </p>
+
+                        <p>
+                            Each price book contains product entries that can be
+                            selected when creating opportunity products and quote
+                            line items.
+                        </p>
+
+                        <p>
+                            This structure helps ensure that sales representatives
+                            use approved pricing based on the customer type and
+                            sales scenario.
+                        </p>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Standard Price Book</h2>
+
+                        <p>
+                            The Standard Price Book supports commercial customer
+                            opportunities across healthcare, education,
+                            manufacturing, and other private-sector industries.
+                        </p>
+
+                        <p>
+                            It serves as the primary pricing source for standard
+                            CloudShield subscriptions, support packages, and
+                            managed services.
+                        </p>
+
+                        <div class="information-grid">
+                            <article class="information-card">
+                                <h3>Customer Type</h3>
+                                <p>
+                                    Commercial and non-government organizations.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Primary Use</h3>
+                                <p>
+                                    Standard opportunities, proposals, expansions,
+                                    and renewals.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Government Price Book</h2>
+
+                        <p>
+                            The Government Price Book supports public-sector
+                            customers and government cybersecurity initiatives.
+                        </p>
+
+                        <p>
+                            It allows CloudShield Security to maintain separate
+                            pricing for government opportunities while using the
+                            same underlying product catalog.
+                        </p>
+
+                        <div class="information-grid">
+                            <article class="information-card">
+                                <h3>Customer Type</h3>
+                                <p>
+                                    Federal, state, local, and public-sector
+                                    organizations.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Primary Use</h3>
+                                <p>
+                                    Government proposals, modernization projects,
+                                    and public-sector agreements.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Product Entries</h2>
+
+                        <p>
+                            Products must have an active price book entry before
+                            they can be added to an opportunity or quote.
+                        </p>
+
+                        <p>
+                            CloudShield products were added to both the Standard
+                            and Government price books so they could be used
+                            across multiple customer scenarios.
+                        </p>
+
+                        <ul>
+                            <li>Haze Essentials</li>
+                            <li>Haze Professional</li>
+                            <li>Haze Enterprise</li>
+                            <li>Premium Support</li>
+                            <li>Managed Detection and Response</li>
+                        </ul>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Example Pricing</h2>
+
+                        <p>
+                            Haze Professional was configured in the Standard
+                            Price Book at $120 per user.
+                        </p>
+
+                        <p>
+                            This pricing was used to create opportunity line
+                            items and calculate proposal totals based on the
+                            quantity of customer users.
+                        </p>
+
+                        <div class="information-grid">
+                            <article class="information-card">
+                                <h3>Product</h3>
+                                <p>Haze Professional</p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Standard Unit Price</h3>
+                                <p>$120 per user</p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Salesforce Workflow</h2>
+
+                        <p>
+                            The selected price book determines which product
+                            prices are available for an opportunity.
+                        </p>
+
+                        <p>
+                            After selecting a price book, products can be added
+                            as opportunity line items with a quantity and sales
+                            price. Those values contribute to the opportunity
+                            amount and can later be included within a customer
+                            quote.
+                        </p>
+
+                        <ul>
+                            <li>Select the appropriate customer opportunity</li>
+                            <li>Assign the correct price book</li>
+                            <li>Add products to the opportunity</li>
+                            <li>Enter quantities and approved sales prices</li>
+                            <li>Review the calculated opportunity total</li>
+                            <li>Create and synchronize the customer quote</li>
+                        </ul>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Business Value</h2>
+
+                        <p>
+                            Separate price books allow CloudShield Security to
+                            support multiple pricing strategies without creating
+                            duplicate product records.
+                        </p>
+
+                        <p>
+                            This structure improves pricing consistency,
+                            simplifies proposal creation, and provides greater
+                            control over commercial and government sales motions.
+                        </p>
+
+                        <div class="information-grid">
+                            <article class="information-card">
+                                <h3>Consistency</h3>
+                                <p>
+                                    Approved prices remain connected to the
+                                    correct Salesforce products.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Flexibility</h3>
+                                <p>
+                                    Different customer segments can use separate
+                                    pricing strategies.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Accuracy</h3>
+                                <p>
+                                    Opportunity and quote totals are calculated
+                                    using structured product entries.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Scalability</h3>
+                                <p>
+                                    Additional markets or pricing models can be
+                                    added through new price books.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <div class="document-navigation">
+                        <a
+                            class="button secondary-page-button"
+                            href="product-catalog.html"
+                        >
+                            Previous: Product Catalog
+                        </a>
+
+                        <a
+                            class="button primary-button"
+                            href="accounts-contacts.html"
+                        >
+                            Next: Accounts &amp; Contacts
+                        </a>
+                    </div>
+                </article>
+
+                <aside class="document-sidebar">
+                    <div class="sidebar-card">
+                        <p class="sidebar-label">Document</p>
+                        <h2>Price Books</h2>
+
+                        <ul>
+                            <li>Standard Price Book</li>
+                            <li>Government Price Book</li>
+                            <li>Product entries</li>
+                            <li>Example pricing</li>
+                            <li>Salesforce workflow</li>
+                            <li>Business value</li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <p class="sidebar-label">Configured Price Books</p>
+                        <h2>Two Pricing Models</h2>
+
+                        <p>
+                            Standard pricing for commercial customers and a
+                            separate government pricing structure.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="section-container footer-content">
+            <p>CloudShield Security Salesforce Sales Cloud Portfolio</p>
+
+            <a href="../index.html">
+                Return to homepage
+            </a>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

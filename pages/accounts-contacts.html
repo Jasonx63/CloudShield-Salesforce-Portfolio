@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Accounts & Contacts | CloudShield Security</title>
+
+    <meta
+        name="description"
+        content="Accounts and contacts documentation for the CloudShield Security Salesforce Sales Cloud portfolio."
+    >
+
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav-container">
+            <a class="site-name" href="../index.html">
+                CloudShield Security
+            </a>
+
+            <button
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                Menu
+            </button>
+
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../index.html#overview">Overview</a>
+                <a href="../index.html#documentation">Documentation</a>
+                <a href="../index.html#screenshots">Screenshots</a>
+                <a href="../index.html#skills">Skills</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="section-container">
+                <p class="eyebrow">Project Documentation</p>
+
+                <h1>Accounts &amp; Contacts</h1>
+
+                <p>
+                    An overview of how CloudShield Security uses Salesforce
+                    Accounts and Contacts to organize customer organizations,
+                    decision-makers, stakeholders, and sales relationships.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-container document-layout">
+                <article class="document-content">
+                    <section class="document-section">
+                        <h2>Customer Record Structure</h2>
+
+                        <p>
+                            Salesforce Accounts represent the organizations that
+                            CloudShield Security works with, while Contacts
+                            represent the individual people associated with those
+                            organizations.
+                        </p>
+
+                        <p>
+                            This structure allows the sales team to maintain a
+                            complete view of each customer relationship,
+                            including stakeholders, active opportunities,
+                            communication history, quotes, and future expansion
+                            potential.
+                        </p>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Account Management</h2>
+
+                        <p>
+                            Each customer organization is maintained as an
+                            Account record within Salesforce.
+                        </p>
+
+                        <p>
+                            Accounts provide a central location for company
+                            information and related sales activity.
+                        </p>
+
+                        <ul>
+                            <li>Organization name</li>
+                            <li>Industry</li>
+                            <li>Customer type</li>
+                            <li>Location</li>
+                            <li>Related contacts</li>
+                            <li>Open and closed opportunities</li>
+                            <li>Activities and follow-up tasks</li>
+                            <li>Quotes and sales history</li>
+                        </ul>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Customer Accounts</h2>
+
+                        <p>
+                            The CloudShield Security Salesforce environment
+                            includes customer scenarios from several industries.
+                        </p>
+
+                        <div class="information-grid">
+                            <article class="information-card">
+                                <h3>Boise State University</h3>
+                                <p>
+                                    Education-sector customer used to demonstrate
+                                    a cybersecurity modernization opportunity,
+                                    product selection, and quote creation.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Idaho Department of Transportation</h3>
+                                <p>
+                                    Government-sector customer supporting a
+                                    public-sector sales motion and government
+                                    pricing workflow.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Treasure Valley Health System</h3>
+                                <p>
+                                    Healthcare customer used to demonstrate a
+                                    security opportunity involving regulated and
+                                    sensitive operating environments.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Campus Endpoint</h3>
+                                <p>
+                                    Commercial technology customer used to
+                                    demonstrate account development and pipeline
+                                    management.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Contact Management</h2>
+
+                        <p>
+                            Contacts represent the individual stakeholders
+                            involved in customer evaluations, purchasing
+                            decisions, implementation planning, and ongoing
+                            account management.
+                        </p>
+
+                        <p>
+                            Maintaining accurate Contact records helps the sales
+                            team understand each person’s role within the buying
+                            process.
+                        </p>
+
+                        <ul>
+                            <li>Primary point of contact</li>
+                            <li>Decision-maker</li>
+                            <li>Technical evaluator</li>
+                            <li>Procurement representative</li>
+                            <li>Executive sponsor</li>
+                            <li>End-user stakeholder</li>
+                        </ul>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Primary Contact Example</h2>
+
+                        <p>
+                            Sarah serves as the primary point of contact in the
+                            Boise State University customer scenario.
+                        </p>
+
+                        <p>
+                            Her Contact record is connected to the Account and
+                            can also be associated with the related Opportunity
+                            and Quote.
+                        </p>
+
+                        <p>
+                            Mr. Chen is referenced as an additional decision-maker,
+                            demonstrating how multiple customer stakeholders may
+                            participate in the same sales process.
+                        </p>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Contact Roles</h2>
+
+                        <p>
+                            Opportunity Contact Roles help document how each
+                            person is involved in a specific sales opportunity.
+                        </p>
+
+                        <p>
+                            This is especially useful when an Account contains
+                            several Contacts with different responsibilities.
+                        </p>
+
+                        <div class="information-grid">
+                            <article class="information-card">
+                                <h3>Relationship Visibility</h3>
+                                <p>
+                                    Shows which customer stakeholders are
+                                    connected to each opportunity.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Decision Process</h3>
+                                <p>
+                                    Helps the sales team identify influencers,
+                                    evaluators, and final decision-makers.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Activities and Follow-Up</h2>
+
+                        <p>
+                            Tasks and activities were created within Salesforce
+                            to support consistent customer follow-up.
+                        </p>
+
+                        <p>
+                            These activities help document next steps and keep
+                            opportunities moving through the sales process.
+                        </p>
+
+                        <ul>
+                            <li>Schedule discovery meetings</li>
+                            <li>Confirm customer requirements</li>
+                            <li>Coordinate product demonstrations</li>
+                            <li>Follow up on proposals</li>
+                            <li>Engage decision-makers</li>
+                            <li>Prepare renewal and expansion discussions</li>
+                        </ul>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Business Value</h2>
+
+                        <p>
+                            Connecting Accounts, Contacts, Opportunities, Quotes,
+                            and Activities provides a complete view of the
+                            customer relationship.
+                        </p>
+
+                        <div class="information-grid">
+                            <article class="information-card">
+                                <h3>Centralized Records</h3>
+                                <p>
+                                    Customer and stakeholder information is stored
+                                    in one connected CRM system.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Improved Follow-Up</h3>
+                                <p>
+                                    Tasks and activities help ensure that customer
+                                    commitments and next steps are not missed.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Stronger Relationships</h3>
+                                <p>
+                                    Contact roles provide visibility into the
+                                    people involved in each buying decision.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Account Growth</h3>
+                                <p>
+                                    Existing customer records support renewals,
+                                    upselling, cross-selling, and future expansion.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <div class="document-navigation">
+                        <a
+                            class="button secondary-page-button"
+                            href="price-books.html"
+                        >
+                            Previous: Price Books
+                        </a>
+
+                        <a
+                            class="button primary-button"
+                            href="opportunities.html"
+                        >
+                            Next: Opportunities
+                        </a>
+                    </div>
+                </article>
+
+                <aside class="document-sidebar">
+                    <div class="sidebar-card">
+                        <p class="sidebar-label">Document</p>
+                        <h2>Accounts &amp; Contacts</h2>
+
+                        <ul>
+                            <li>Customer record structure</li>
+                            <li>Account management</li>
+                            <li>Customer accounts</li>
+                            <li>Contact management</li>
+                            <li>Contact roles</li>
+                            <li>Activities and follow-up</li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <p class="sidebar-label">CRM Purpose</p>
+                        <h2>Relationship Management</h2>
+
+                        <p>
+                            Connects customer organizations, stakeholders,
+                            opportunities, quotes, and sales activities.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="section-container footer-content">
+            <p>CloudShield Security Salesforce Sales Cloud Portfolio</p>
+
+            <a href="../index.html">
+                Return to homepage
+            </a>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
