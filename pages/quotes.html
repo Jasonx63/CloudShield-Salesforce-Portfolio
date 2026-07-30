@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quotes | CloudShield Security</title>
+
+    <meta
+        name="description"
+        content="Quote management documentation for the CloudShield Security Salesforce Sales Cloud portfolio."
+    >
+
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav-container">
+            <a class="site-name" href="../index.html">
+                CloudShield Security
+            </a>
+
+            <button
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                Menu
+            </button>
+
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../index.html#overview">Overview</a>
+                <a href="../index.html#documentation">Documentation</a>
+                <a href="../index.html#screenshots">Screenshots</a>
+                <a href="../index.html#skills">Skills</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="section-container">
+                <p class="eyebrow">Project Documentation</p>
+
+                <h1>Quotes</h1>
+
+                <p>
+                    An overview of how CloudShield Security uses Salesforce
+                    Quotes to organize products, pricing, quantities, customer
+                    contacts, proposal totals, and synchronized opportunity data.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-container document-layout">
+                <article class="document-content">
+                    <section class="document-section">
+                        <h2>Quote Management</h2>
+
+                        <p>
+                            Salesforce Quotes provide a structured way to present
+                            selected products, services, quantities, and pricing
+                            to a customer.
+                        </p>
+
+                        <p>
+                            Each Quote is connected to an Opportunity, helping
+                            maintain consistency between the active sales deal
+                            and the proposal presented to the customer.
+                        </p>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Quote Structure</h2>
+
+                        <p>
+                            CloudShield Quote records were created to reflect
+                            realistic SaaS and cybersecurity proposals.
+                        </p>
+
+                        <ul>
+                            <li>Quote name</li>
+                            <li>Related Opportunity</li>
+                            <li>Customer Account</li>
+                            <li>Primary Contact</li>
+                            <li>Expiration date</li>
+                            <li>Selected price book</li>
+                            <li>Products and services</li>
+                            <li>Quantities</li>
+                            <li>Sales prices</li>
+                            <li>Calculated total</li>
+                            <li>Quote synchronization status</li>
+                        </ul>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Quote Creation Process</h2>
+
+                        <p>
+                            Quotes are created after the customer’s needs,
+                            product requirements, and pricing structure have been
+                            confirmed.
+                        </p>
+
+                        <ul>
+                            <li>Open the related Opportunity</li>
+                            <li>Create a new Quote</li>
+                            <li>Confirm the customer Account</li>
+                            <li>Add the primary Contact</li>
+                            <li>Select the appropriate price book</li>
+                            <li>Add products and services</li>
+                            <li>Enter quantities and sales prices</li>
+                            <li>Review the calculated total</li>
+                            <li>Synchronize the Quote with the Opportunity</li>
+                        </ul>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Products and Quote Lines</h2>
+
+                        <p>
+                            Products are added to the Quote as line items using
+                            the pricing available within the selected price book.
+                        </p>
+
+                        <p>
+                            Each line item records the product, quantity, unit
+                            price, and calculated total.
+                        </p>
+
+                        <div class="information-grid">
+                            <article class="information-card">
+                                <h3>Core Subscriptions</h3>
+                                <p>
+                                    Haze Essentials, Haze Professional, and Haze
+                                    Enterprise.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Optional Services</h3>
+                                <p>
+                                    Premium Support and Managed Detection and
+                                    Response.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Pricing Source</h3>
+                                <p>
+                                    Standard or Government Price Book.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Calculation</h3>
+                                <p>
+                                    Quantity multiplied by the approved sales
+                                    price.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Government Proposal Example</h2>
+
+                        <p>
+                            A government-focused Quote was created to support a
+                            cybersecurity modernization initiative.
+                        </p>
+
+                        <p>
+                            The proposal demonstrates how Salesforce can organize
+                            public-sector pricing, customer information, selected
+                            products, service add-ons, quantities, and total
+                            contract value within one record.
+                        </p>
+
+                        <div class="information-grid">
+                            <article class="information-card">
+                                <h3>Proposal Type</h3>
+                                <p>Government cybersecurity modernization</p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Pricing Model</h3>
+                                <p>Government Price Book</p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Customer Need</h3>
+                                <p>
+                                    Scalable cybersecurity protection and support
+                                    services.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Salesforce Value</h3>
+                                <p>
+                                    Centralized proposal and opportunity
+                                    management.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Primary Contact</h2>
+
+                        <p>
+                            The customer’s primary Contact can be associated with
+                            the Quote to ensure that the proposal is connected to
+                            the appropriate stakeholder.
+                        </p>
+
+                        <p>
+                            In the Boise State University scenario, Sarah was
+                            added as the primary point of contact for the Quote.
+                        </p>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Quote Synchronization</h2>
+
+                        <p>
+                            Salesforce allows one Quote to be synchronized with
+                            its related Opportunity.
+                        </p>
+
+                        <p>
+                            When synchronization is active, Quote line items and
+                            totals can remain aligned with the Opportunity
+                            products and amount.
+                        </p>
+
+                        <div class="information-grid">
+                            <article class="information-card">
+                                <h3>Data Consistency</h3>
+                                <p>
+                                    Helps keep Opportunity and Quote product data
+                                    aligned.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Revenue Accuracy</h3>
+                                <p>
+                                    Reduces differences between proposed pricing
+                                    and pipeline value.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Proposal Review</h2>
+
+                        <p>
+                            Before presenting a Quote to a customer, the sales
+                            representative should verify all proposal details.
+                        </p>
+
+                        <ul>
+                            <li>Correct customer Account</li>
+                            <li>Correct primary Contact</li>
+                            <li>Approved price book</li>
+                            <li>Accurate product selection</li>
+                            <li>Correct user quantities</li>
+                            <li>Approved pricing</li>
+                            <li>Included support and managed services</li>
+                            <li>Accurate proposal total</li>
+                            <li>Valid expiration date</li>
+                        </ul>
+                    </section>
+
+                    <section class="document-section">
+                        <h2>Business Value</h2>
+
+                        <p>
+                            Salesforce Quotes connect customer requirements,
+                            approved pricing, products, services, and Opportunity
+                            data within a repeatable proposal workflow.
+                        </p>
+
+                        <div class="information-grid">
+                            <article class="information-card">
+                                <h3>Consistency</h3>
+                                <p>
+                                    Proposals use structured products and approved
+                                    price book entries.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Visibility</h3>
+                                <p>
+                                    Sales teams can review proposal status and
+                                    value from the related Opportunity.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Accuracy</h3>
+                                <p>
+                                    Quantities and prices are calculated through
+                                    organized Quote line items.
+                                </p>
+                            </article>
+
+                            <article class="information-card">
+                                <h3>Scalability</h3>
+                                <p>
+                                    The same Quote process can support commercial,
+                                    government, renewal, and expansion scenarios.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <div class="document-navigation">
+                        <a
+                            class="button secondary-page-button"
+                            href="opportunities.html"
+                        >
+                            Previous: Opportunities
+                        </a>
+
+                        <a
+                            class="button primary-button"
+                            href="sales-workflow.html"
+                        >
+                            Next: Sales Workflow
+                        </a>
+                    </div>
+                </article>
+
+                <aside class="document-sidebar">
+                    <div class="sidebar-card">
+                        <p class="sidebar-label">Document</p>
+                        <h2>Quotes</h2>
+
+                        <ul>
+                            <li>Quote management</li>
+                            <li>Quote structure</li>
+                            <li>Quote creation</li>
+                            <li>Products and pricing</li>
+                            <li>Government proposal</li>
+                            <li>Quote synchronization</li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <p class="sidebar-label">Salesforce Purpose</p>
+                        <h2>Proposal Management</h2>
+
+                        <p>
+                            Connects customer requirements, products, pricing,
+                            contacts, and Opportunity revenue.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="section-container footer-content">
+            <p>CloudShield Security Salesforce Sales Cloud Portfolio</p>
+
+            <a href="../index.html">
+                Return to homepage
+            </a>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
