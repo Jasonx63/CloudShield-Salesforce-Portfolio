@@ -506,6 +506,14 @@ a {
     .highlight-grid,
     .documentation-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+        .document-layout {
+    grid-template-columns: 1fr;
+}
+
+.document-sidebar {
+    position: static;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
     }
 
     .nav-links {
@@ -592,8 +600,184 @@ a {
         flex-direction: column;
         align-items: flex-start;
     }
+    .page-hero {
+    padding: 68px 0 56px;
 }
 
+.information-grid,
+.document-sidebar {
+    grid-template-columns: 1fr;
+}
+
+.document-navigation {
+    flex-direction: column;
+}
+
+.document-navigation .button {
+    width: 100%;
+}
+}
+/* Documentation webpages */
+
+.page-hero {
+    padding: 82px 0 68px;
+    color: #ffffff;
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(1, 118, 211, 0.3),
+            transparent 36%
+        ),
+        linear-gradient(135deg, var(--navy), var(--navy-light));
+}
+
+.page-hero h1 {
+    margin: 0;
+    font-size: clamp(2.7rem, 6vw, 4.8rem);
+    line-height: 1;
+    letter-spacing: -0.05em;
+}
+
+.page-hero p:not(.eyebrow) {
+    max-width: 760px;
+    margin: 22px 0 0;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 1.1rem;
+}
+
+.document-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    align-items: start;
+    gap: 42px;
+}
+
+.document-content {
+    min-width: 0;
+}
+
+.document-section {
+    padding: 0 0 42px;
+    margin-bottom: 42px;
+    border-bottom: 1px solid var(--border);
+}
+
+.document-section:last-of-type {
+    margin-bottom: 0;
+}
+
+.document-section h2 {
+    margin: 0 0 18px;
+    color: var(--navy);
+    font-size: clamp(1.6rem, 3vw, 2.15rem);
+    letter-spacing: -0.03em;
+}
+
+.document-section p {
+    margin: 0 0 16px;
+    color: var(--muted);
+    font-size: 1.02rem;
+}
+
+.document-section p:last-child {
+    margin-bottom: 0;
+}
+
+.document-section ul {
+    margin: 18px 0 0;
+    padding-left: 22px;
+    color: var(--muted);
+}
+
+.document-section li + li {
+    margin-top: 9px;
+}
+
+.information-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.information-card {
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px;
+    background: var(--surface);
+}
+
+.information-card h3 {
+    margin: 0 0 8px;
+    color: var(--navy);
+}
+
+.information-card p {
+    margin: 0;
+    font-size: 0.96rem;
+}
+
+.document-sidebar {
+    position: sticky;
+    top: 96px;
+    display: grid;
+    gap: 18px;
+}
+
+.sidebar-card {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    background: #ffffff;
+    box-shadow: var(--shadow);
+}
+
+.sidebar-card h2 {
+    margin: 4px 0 14px;
+    color: var(--navy);
+    font-size: 1.2rem;
+}
+
+.sidebar-card p {
+    margin: 0;
+    color: var(--muted);
+}
+
+.sidebar-card ul {
+    margin: 14px 0 0;
+    padding-left: 20px;
+    color: var(--muted);
+}
+
+.sidebar-card li + li {
+    margin-top: 7px;
+}
+
+.sidebar-label {
+    color: var(--blue) !important;
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+}
+
+.document-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 10px;
+}
+
+.secondary-page-button {
+    color: var(--navy);
+    border-color: var(--border);
+    background: #ffffff;
+}
+
+.secondary-page-button:hover,
+.secondary-page-button:focus-visible {
+    border-color: var(--blue);
+    background: var(--blue-soft);
+}
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
